@@ -39,3 +39,12 @@ print(game_board)
 
 game_board[1]=[0,1,0]
 print(game_board)
+
+Game_board=[    
+        [0,0,0],
+        [0,0,0],
+        [0,0,0]]
+print(Game_board)
+Game_board[1][1]=1
+print(Game_board)
+
