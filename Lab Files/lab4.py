@@ -30,8 +30,7 @@ print(len(my_tweet["visited_countries"]))
 #3.7
 my_tweet["visited_countries"].append("CH")
 print(my_tweet)
-
-#3.8
+ 8
 print("US" in my_tweet["visited_countries"])
 
 #3.9
