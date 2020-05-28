@@ -60,17 +60,3 @@ print(num_list)
 while num_list:
     num_list.pop(0)
     print(num_list)
-
-"""
-    num_list.remove(12)
-print(num_list)
-while 32 in num_list:
-    num_list.remove(32)
-print(num_list)
-while 43 in num_list:
-    num_list.remove(43)
-print(num_list)
-while 35 in num_list:
-    num_list.remove(35)
-print(num_list)
-"""
