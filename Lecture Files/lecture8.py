@@ -79,8 +79,8 @@ def calc_factorial(m):
     if m==0:
         return 1
     else:
-        return m+calc_factorial(m-1)
-print(calc_factorial(0))
+        return m*calc_factorial(m-1)
+print(calc_factorial(5))
 
 def calc_p(m,n):
     return calc_factorial(m)/calc_factorial(m-n)
